@@ -25,7 +25,7 @@ const Join = () =>{
                 <Link onClick={event =>(!name || !room)?event.preventDefault():null} to={`/chat?name=${name}&room=${room}`}>
                     <button className="button mt-20">Sign In</button>
                 </Link>
-                <a href="https://github.com/KUSHAD/What-s-Chat" className="link mt-20">developed by Kushad</a>
+                <a href="https://github.com/KUSHAD/What-s-Chat" target="_blank" className="link mt-20">developed by Kushad</a>
             </div>
         </div>
     )
